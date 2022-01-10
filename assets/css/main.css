@@ -7,6 +7,30 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+i.fa-react, i.fa-js-square, i.fa-python, i.fa-flask, i.fa-html5, i.fa-css3-alt {
+	margin-bottom:1.5rem;
+}
+
+#postgreSQL {
+	height:6.5em;
+}
+
+#redux {
+	height:6.5em;
+}
+
+#express-container {
+	width:fit-content;
+	left:auto;
+	right:auto;
+	display:inline-block;
+	margin-bottom:1.5rem;
+}
+
+#express {
+	height:6.5em;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -122,7 +146,11 @@ input, select, textarea {
 			border: 0;
 		}
 
-	b, strong {
+	strong {
+		color:white;
+	}
+
+	b {
 		font-weight: 600;
 		color: #3e3e3e;
 	}
@@ -149,7 +177,12 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3 {
+		color:white;
+		margin: 0 0 0.75em 0;
+	}
+
+	h4, h5, h6 {
 		color: #3e3e3e;
 		margin: 0 0 0.75em 0;
 	}
@@ -1919,6 +1952,7 @@ input, select, textarea {
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
+			background-color: #3e3e3e;
 		}
 
 			.box.style1 h3 {
@@ -1995,17 +2029,17 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #303030;
+			background-color: #3e3e3e;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #303030;
+			text-shadow: none;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #3e3e3e;
+			text-shadow: none;
 		}
 
 		.wrapper.style4 {
@@ -2126,7 +2160,7 @@ input, select, textarea {
 
 		#top p {
 			font-size: 1.5em;
-			line-height: 1.75em;
+			line-height: 1.25em;
 		}
 
 			#top p a {
@@ -2443,3 +2477,7 @@ input, select, textarea {
 					}
 
 	}
+
+#subheader {
+	line-height: 1.25em;
+}
