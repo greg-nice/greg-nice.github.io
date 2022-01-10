@@ -28,8 +28,6 @@ i.fa-react, i.fa-js-square, i.fa-python, i.fa-flask, i.fa-html5, i.fa-css3-alt {
 	fill: #30628a;
 }
 
-
-
 #express-container {
 	width:fit-content;
 	left:auto;
@@ -73,6 +71,17 @@ a.tech-link {
 	color: #2760e5
 }
 
+.wrapper.style3.aboutme {
+	background-color:#181818
+}
+
+#aboutme-p {
+	color:white;
+}
+
+.wrapper.style4.contactme {
+	background-color:#181818f8
+}
 
 
 html, body, div, span, applet, object,
