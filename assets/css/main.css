@@ -11,12 +11,13 @@ i.fa-react, i.fa-js-square, i.fa-python, i.fa-flask, i.fa-html5, i.fa-css3-alt {
 	margin-bottom:1.5rem;
 }
 
-#postgreSQL {
+#postgreSQL, #redux, #express {
 	height:6.5em;
+	fill:rgb(136,136,136);
 }
 
-#redux {
-	height:6.5em;
+#postgreSQL:hover, #redux:hover, #express:hover {
+	fill: hsl(197, 85%, 60%);
 }
 
 #express-container {
@@ -27,10 +28,6 @@ i.fa-react, i.fa-js-square, i.fa-python, i.fa-flask, i.fa-html5, i.fa-css3-alt {
 	margin-bottom:1.5rem;
 }
 
-#express {
-	height:6.5em;
-}
-
 #email {
 	color:white;
 	font-size:1.2rem;
@@ -39,6 +36,11 @@ i.fa-react, i.fa-js-square, i.fa-python, i.fa-flask, i.fa-html5, i.fa-css3-alt {
 
 h3.project {
 	color:black;
+}
+
+a.tech-link {
+	color:inherit;
+	transition: none;
 }
 
 html, body, div, span, applet, object,
