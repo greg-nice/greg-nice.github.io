@@ -16,9 +16,19 @@ i.fa-react, i.fa-js-square, i.fa-python, i.fa-flask, i.fa-html5, i.fa-css3-alt {
 	fill:rgb(136,136,136);
 }
 
-#postgreSQL:hover, #redux:hover, #express:hover {
-	fill: hsl(197, 85%, 60%);
+#redux:hover {
+	fill: #7940ba
 }
+
+#express:hover {
+	fill: #62965e
+}
+
+#postgreSQL:hover {
+	fill: #30628a;
+}
+
+
 
 #express-container {
 	width:fit-content;
@@ -42,6 +52,28 @@ a.tech-link {
 	color:inherit;
 	transition: none;
 }
+
+#javascript:hover {
+	color:#f8e017
+}
+
+#python:hover {
+	color:#346b9a
+}
+
+#flask:hover {
+	color:black;
+}
+
+#html5:hover {
+	color: #e56027;
+}
+
+#css3:hover {
+	color: #2760e5
+}
+
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
