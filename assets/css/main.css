@@ -31,6 +31,16 @@ i.fa-react, i.fa-js-square, i.fa-python, i.fa-flask, i.fa-html5, i.fa-css3-alt {
 	height:6.5em;
 }
 
+#email {
+	color:white;
+	font-size:1.2rem;
+	line-height: 2rem;
+}
+
+h3.project {
+	color:black;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -134,12 +144,12 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		color: hsl(192, 72%, 57%);
 		text-decoration: underline;
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: hsl(197, 85%, 60%) !important;
 		}
 
 		a img {
@@ -1837,7 +1847,7 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					background-color: transparent;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
