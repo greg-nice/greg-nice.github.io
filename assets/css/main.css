@@ -16,16 +16,28 @@ i.fa-react, i.fa-js-square, i.fa-python, i.fa-flask, i.fa-html5, i.fa-css3-alt {
 	fill:rgb(136,136,136);
 }
 
+#redux {
+	fill: rgba(121, 64, 186, .75)
+}
+
 #redux:hover {
 	fill: #7940ba
+}
+
+#express {
+	fill: rgba(98, 150, 94, .75)
 }
 
 #express:hover {
 	fill: #62965e
 }
 
+#postgreSQL {
+	fill: rgba(48, 98, 138, .7);
+}
+
 #postgreSQL:hover {
-	fill: #30628a;
+	fill: #30628a 
 }
 
 #express-container {
@@ -51,20 +63,48 @@ a.tech-link {
 	transition: none;
 }
 
+#javascript {
+	color:rgba(248, 224, 23, .75)
+}
+
 #javascript:hover {
 	color:#f8e017
 }
 
+#python {
+	color:rgba(52, 107, 154, .7)
+}
+
 #python:hover {
-	color:#346b9a
+	color:rgb(52, 107, 154)
+}
+
+#flask {
+	color:rgba(0, 0, 0, 0.5);
 }
 
 #flask:hover {
 	color:black;
 }
 
+#html5 {
+	color: rgba(229, 96, 39, .75);
+}
+
 #html5:hover {
 	color: #e56027;
+}
+
+#react {
+	color: rgba(97, 219, 252, .75);
+}
+
+#react:hover {
+	color: #61dbfc;
+}
+
+#css3 {
+	color: rgba(39, 96, 229, .75)
 }
 
 #css3:hover {
