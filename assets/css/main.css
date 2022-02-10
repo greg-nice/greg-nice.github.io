@@ -112,11 +112,15 @@ a.tech-link {
 }
 
 .wrapper.style3.aboutme {
-	background-color:#181818
+	background-color:white
 }
 
 #aboutme-p {
-	color:white;
+	color:black;
+}
+
+#about-me-header {
+	color:black;
 }
 
 .wrapper.style4.contactme {
